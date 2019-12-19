@@ -1,0 +1,26 @@
+{
+  "name": "freqapp",
+  "version": "1.0.0",
+  "description": "App to calculate frequency of words in a text string",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "word",
+    "frequency"
+  ],
+  "engines": {
+    "node": "10.16.0"
+  },
+  "author": "kranthi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "eslint": "^6.7.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
