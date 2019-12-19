@@ -248,6 +248,9 @@ app.get('/freq-map/:top', function(req, res) {
 });
 
 //start server
-app.listen(3001, function() {
-    console.log("server started at port 3000");
+
+var port = process.env.PORT || 3002;
+
+app.listen(port, function() {
+    console.log("server started at port 3002");
 });
